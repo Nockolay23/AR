@@ -820,4 +820,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/sereb/Desktop/ARprogramm/12.apk
+  playerPath: C:/Users/sereb/Documents/GitHub/AR/ARprogramm/ARHelper.apk

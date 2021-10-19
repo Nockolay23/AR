@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   img: {fileID: 1762723353}
   SizeImg: 400
-  Scene: 2
+  Scene: 1
   timer: 0
   Cooldown: 3
 --- !u!4 &83575115

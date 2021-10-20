@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 910, y: 442}
   m_MaxSize: {x: 22005, y: 10021}
   vertical: 0
-  controlID: 8529
+  controlID: 6523
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 8507
+  controlID: 6600
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,9 +402,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 625.8285, y: 962.74146, z: -414.14105}
+    m_Target: {x: 385.6724, y: 1143.7798, z: 28.434937}
     speed: 2
-    m_Value: {x: 625.8285, y: 962.74146, z: -414.14105}
+    m_Value: {x: 385.6724, y: 1143.7798, z: 28.434937}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -451,13 +451,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.04314123, y: -0.042225033, z: -0.0018604348, w: -0.99825436}
+    m_Target: {x: -0.19690014, y: 0.035010047, z: -0.007083401, w: -0.9798555}
     speed: 2
-    m_Value: {x: 0.043137796, y: -0.04222167, z: -0.0018602867, w: -0.99817485}
+    m_Value: {x: -0.19690013, y: 0.035010047, z: -0.007083401, w: -0.9798555}
   m_Size:
-    m_Target: 290.1485
+    m_Target: 953.71545
     speed: 2
-    m_Value: 290.1485
+    m_Value: 953.71545
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -512,7 +512,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4cd2ffff44d5ffff52fbffffc8480000ec48000000490000284900003a490000444900005649000068490000a8490000ae490000ca490000
+      m_ExpandedIDs: 28f7ffffeef7ffff52fbffff00490000a8490000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -574,21 +574,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Main
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Main
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "D:\\UnityGame\\\u0426\u0438\u0444\u0440\u0430\\AR\\ARprogramm"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a4a0000
-    m_LastClickedID: 19050
+    m_SelectedIDs: 6e4a0000
+    m_LastClickedID: 19054
     m_ExpandedIDs: 000000005a4a00005c4a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 1849000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

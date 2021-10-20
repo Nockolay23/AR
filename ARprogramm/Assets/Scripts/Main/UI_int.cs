@@ -23,9 +23,12 @@ public class UI_int : MonoBehaviour
     public Image SettingBlock6;
     public Image SettingBlock7;
     
+    public Image SettingBtFixImg;
 
     public GameObject SettingActive;
     public GameObject SettingText;
+
+    public GameObject SettingBtFix;
 
     static int With;
     static int Height;
@@ -92,7 +95,7 @@ public class UI_int : MonoBehaviour
         SettingBackBt.rectTransform.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 15, SizeH);
         SettingBackBt.rectTransform.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Top, 15, SizeH);
 
-        //Размер шрифта 
+        //Несколько блоков кнопок
         SettingBlock1.rectTransform.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 0, With);
         SettingBlock1.rectTransform.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Top, Bloack, Size);
 
@@ -125,6 +128,10 @@ public class UI_int : MonoBehaviour
 
         SettingBlock7.rectTransform.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 0, With);
         SettingBlock7.rectTransform.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Top, Bloack, Size);
+
+        //Сообщение о недоработке
+        SettingBtFixImg.rectTransform.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 0, With);
+        SettingBtFixImg.rectTransform.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Top, 0, Height);
     }
 
     public void SettingClick()
@@ -135,5 +142,15 @@ public class UI_int : MonoBehaviour
     public void SettingBackBtClick()
     {
         SettingActive.SetActive(false);
+    }
+
+    public void SettingBtClick()
+    {
+        SettingBtFix.SetActive(true);
+    }
+
+    public void SettingBtFixClick()
+    {
+        SettingBtFix.SetActive(false);
     }
 }
